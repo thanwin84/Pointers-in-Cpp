@@ -15,8 +15,8 @@ int main() {
     int b = 20;
     *p =  b; // only value is modified and p still points to a
     cout << *p << endl;
-    cout << p << endl;
-    cout << a << endl;
+    cout << p << endl; 
+    cout << a << endl; // now a becomes 20
     cout << *p << endl;
 
     return 0;

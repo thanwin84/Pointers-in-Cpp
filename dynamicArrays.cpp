@@ -11,7 +11,7 @@ int *add_one(vector<int> arr, int size){
 
 }
 int main() {
-   auto a = 10000009000000009;
+   
    vector<int> arr = {1, 2, 3, 4};
    int *pointer = add_one(arr, 4);
    for (int i = 0; i < 4; i++){
